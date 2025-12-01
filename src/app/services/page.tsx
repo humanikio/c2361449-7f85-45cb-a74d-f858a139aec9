@@ -293,10 +293,10 @@ export default function ServicesPage() {
       {/* CTA */}
       <section className="py-20 bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white title-on-dark">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-secondary-foreground/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-foreground/80 subtitle-on-dark mb-8 max-w-2xl mx-auto">
             Let's discuss your event and create the perfect beverage experience
           </p>
           <Button

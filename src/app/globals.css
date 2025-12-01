@@ -276,6 +276,25 @@ em {
 }
 
 /* ============================================
+   DARK BACKGROUND TEXT UTILITIES
+   ============================================ */
+
+/* Title on dark background - ensures white text */
+.title-on-dark {
+  color: white !important;
+}
+
+/* Subtitle on dark background - ensures white text with slight transparency */
+.subtitle-on-dark {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Text on dark background - general utility for any text */
+.text-on-dark {
+  color: white !important;
+}
+
+/* ============================================
    FORM & BUTTON DEFAULTS
    ============================================ */
 

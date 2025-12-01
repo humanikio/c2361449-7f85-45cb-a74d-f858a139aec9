@@ -27,11 +27,11 @@ export default function HomePage() {
 
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-serif font-bold text-white title-on-dark mb-6 animate-fade-in">
               Elevate Your Celebration with
               <span className="text-primary block mt-2">Artisan Cocktail Experiences</span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/90 subtitle-on-dark mb-8 leading-relaxed">
               Premium mobile bartending service bringing professional mixology and custom signature drinks directly to your event
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -312,10 +312,10 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white title-on-dark">
             Ready to Elevate Your Event?
           </h2>
-          <p className="text-xl text-secondary-foreground/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-foreground/80 subtitle-on-dark mb-8 max-w-2xl mx-auto">
             Let's create an unforgettable beverage experience for your celebration. Get your free custom quote today.
           </p>
           <Button

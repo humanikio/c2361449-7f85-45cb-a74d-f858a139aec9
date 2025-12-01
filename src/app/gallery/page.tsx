@@ -117,7 +117,7 @@ export default function GalleryPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 className="text-white font-serif text-xl font-semibold">
+                    <h3 className="text-white font-serif text-xl font-semibold title-on-dark">
                       {image.title}
                     </h3>
                   </div>
@@ -194,10 +194,10 @@ export default function GalleryPage() {
       {/* CTA */}
       <section className="py-20 bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white title-on-dark">
             Create Your Own Memorable Event
           </h2>
-          <p className="text-xl text-secondary-foreground/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-foreground/80 subtitle-on-dark mb-8 max-w-2xl mx-auto">
             Let's design a beautiful bar experience that your guests will never forget
           </p>
           <Button

@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-serif font-bold mb-4 text-white">
+            <h3 className="text-2xl font-serif font-bold mb-4 text-white title-on-dark">
               Beyond The Bar
             </h3>
             <p className="text-secondary-foreground/80 mb-4">
@@ -36,7 +36,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Quick Links</h4>
+            <h4 className="font-semibold mb-4 text-white title-on-dark">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-secondary-foreground/80 hover:text-primary transition-colors">
@@ -63,7 +63,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Services</h4>
+            <h4 className="font-semibold mb-4 text-white title-on-dark">Services</h4>
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>Mobile Bar Experience</li>
               <li>Signature Cocktail Design</li>
@@ -74,7 +74,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Contact</h4>
+            <h4 className="font-semibold mb-4 text-white title-on-dark">Contact</h4>
             <ul className="space-y-3 text-secondary-foreground/80">
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
