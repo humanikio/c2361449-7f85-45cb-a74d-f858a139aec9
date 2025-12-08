@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 pt-24 md:pt-32">
+        <div className="relative z-10 container mx-auto px-4 pt-32 md:pt-40">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white title-on-dark mb-6 animate-fade-in">
               Elevate Your Celebration with
@@ -51,15 +51,6 @@ export default function HomePage() {
                 <Link href="/services">Explore Services</Link>
               </Button>
             </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm">Scroll to discover</span>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
           </div>
         </div>
       </section>
