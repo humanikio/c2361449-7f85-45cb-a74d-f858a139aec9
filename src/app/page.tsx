@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4">
+        <div className="relative z-10 container mx-auto px-4 pt-24 md:pt-32">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white title-on-dark mb-6 animate-fade-in">
               Elevate Your Celebration with
