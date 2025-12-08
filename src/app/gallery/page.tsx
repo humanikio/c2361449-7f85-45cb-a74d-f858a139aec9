@@ -40,7 +40,7 @@ const galleryImages = [
     title: 'Signature Craft Cocktails'
   },
   {
-    src: '/generated/francesca-bartender.png',
+    src: '/generated/whitney-bartender.png',
     alt: 'Bartender crafting cocktails',
     category: 'cocktails',
     title: 'Artisan Cocktail Creation'
@@ -157,7 +157,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <blockquote className="text-2xl md:text-3xl font-serif italic mb-6 text-foreground/90">
-              "Francesca's mobile bar was the highlight of our wedding. Every detail was perfect, from the elegant setup to the incredible lavender gin fizz that became our signature drink."
+              "Whitney's mobile bar was the highlight of our wedding. Every detail was perfect, from the elegant setup to the incredible lavender gin fizz that became our signature drink."
             </blockquote>
             <div className="text-lg">
               <div className="font-semibold">Sarah & Michael Thompson</div>

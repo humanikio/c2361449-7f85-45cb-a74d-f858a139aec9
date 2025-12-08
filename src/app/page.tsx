@@ -79,14 +79,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Francesca's Story */}
+      {/* Whitney's Story */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/generated/francesca-bartender.png"
-                alt="Francesca Martinez - Master Mixologist"
+                src="/generated/whitney-bartender.png"
+                alt="Whitney Torres - Master Mixologist"
                 fill
                 className="object-cover"
               />
@@ -94,7 +94,7 @@ export default function HomePage() {
 
             <div className="space-y-6 order-1 md:order-2">
               <div className="inline-block">
-                <span className="text-primary font-semibold text-sm tracking-wider uppercase">Meet Francesca</span>
+                <span className="text-primary font-semibold text-sm tracking-wider uppercase">Meet Whitney</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif font-bold">
                 Master Mixologist with a Passion for Perfection
@@ -151,42 +151,42 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <ServiceCard
-              title="Premium Mobile Bar"
-              description="Complete mobile bar setup with premium spirits and equipment"
-              price="$1,200"
+              title="Premium Mobile Bar Experience"
+              description="Complete mobile bar setup with all supplies and equipment"
+              price="$850"
               features={[
                 'Fully equipped mobile bar',
-                '3 signature cocktails',
-                'Professional bartender service',
-                'All glassware & equipment',
+                '1 signature cocktail',
+                'Professional bartender (4 hrs)',
+                'All glassware & bar tools',
                 'Setup & breakdown included'
-              ]}
-            />
-
-            <ServiceCard
-              title="Signature Cocktails"
-              description="Custom cocktail design tailored to your event theme"
-              price="$800"
-              features={[
-                'Custom menu consultation',
-                '3 unique cocktail recipes',
-                'Premium ingredient sourcing',
-                'Recipe cards for guests',
-                'Professional preparation'
               ]}
               highlighted
             />
 
             <ServiceCard
-              title="Bartender Services"
+              title="Beer & Wine Service"
+              description="Elevated beverage service for beer and wine only"
+              price="$500"
+              features={[
+                'Professional bartender',
+                'Beer & wine service only',
+                'Ice & coolers provided',
+                'Glassware included',
+                '4 hour service'
+              ]}
+            />
+
+            <ServiceCard
+              title="Bartender Only"
               description="Professional bartender for your existing bar setup"
-              price="$150/hr"
+              price="$400"
               features={[
                 'Experienced mixologist',
                 'Professional bar service',
-                '2 hour minimum',
-                'Cocktail expertise',
-                'Friendly guest interaction'
+                '4 hour minimum',
+                'Bar tools included',
+                'No supplies provided'
               ]}
             />
           </div>
@@ -214,21 +214,21 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
+                name: 'Jason C.',
+                event: 'Birthday Party',
+                quote: 'Whitney absolutely made my birthday party unforgettable! She showed up with amazing energy, crafted delicious drinks, and kept the good vibes flowing all night long. My guests are still talking about how fun she was behind the bar! If you want your event to be a hit, book Whitney — she\'s the best!',
+                rating: 5
+              },
+              {
+                name: 'Charles L.',
+                event: 'Housewarming Party',
+                quote: 'Whitney crushed it at my housewarming party! From the custom cocktails to the smooth service, she had every guest hyped and happy. She brought the exact energy the night needed — fun, professional, and seriously talented behind the bar. People are still asking me for her info because she turned a simple housewarming into a full-on celebration. If you want your party to go from good to legendary, you need Whitney behind the bar. 10/10 — would book again in a heartbeat!',
+                rating: 5
+              },
+              {
                 name: 'Sarah & Michael',
                 event: 'Hill Country Wedding',
-                quote: 'Francesca transformed our wedding reception with her stunning mobile bar and incredible signature cocktails. Our guests are still raving about the lavender gin fizz!',
-                rating: 5
-              },
-              {
-                name: 'David Chen',
-                event: 'Corporate Launch Party',
-                quote: 'Professional, creative, and absolutely flawless execution. The smoked old fashioned station was the highlight of our product launch event.',
-                rating: 5
-              },
-              {
-                name: 'Jennifer Lopez',
-                event: 'Anniversary Celebration',
-                quote: 'The custom champagne cocktail menu was perfect for our intimate celebration. Francesca\'s attention to detail and warm service made our evening truly special.',
+                quote: 'Whitney transformed our wedding reception with her stunning mobile bar and incredible signature cocktails. Our guests are still raving about the lavender gin fizz!',
                 rating: 5
               }
             ].map((testimonial, index) => (

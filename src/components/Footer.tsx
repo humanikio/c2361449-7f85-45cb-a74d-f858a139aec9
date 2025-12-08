@@ -14,23 +14,15 @@ export function Footer() {
             <p className="text-secondary-foreground/80 mb-4">
               Premium mobile bartending service bringing professional cocktail artistry to your celebration.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary-foreground/60 hover:text-primary transition-colors"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary-foreground/60 hover:text-primary transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
+            <div className="flex gap-4 items-center">
+              <div className="relative group">
+                <div className="text-secondary-foreground/60 cursor-not-allowed">
+                  <Instagram className="h-5 w-5" />
+                </div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                  Coming Soon!
+                </div>
+              </div>
             </div>
           </div>
 
@@ -82,14 +74,14 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 flex-shrink-0" />
-                <a href="tel:+15125551234" className="hover:text-primary transition-colors">
-                  (512) 555-1234
+                <a href="tel:503-317-9794" className="hover:text-primary transition-colors">
+                  503-317-9794
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 flex-shrink-0" />
-                <a href="mailto:hello@thenearestbar.com" className="hover:text-primary transition-colors">
-                  hello@thenearestbar.com
+                <a href="mailto:info@thenearestbaratx.com" className="hover:text-primary transition-colors">
+                  info@thenearestbaratx.com
                 </a>
               </li>
             </ul>

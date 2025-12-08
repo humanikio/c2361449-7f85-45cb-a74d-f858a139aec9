@@ -6,7 +6,8 @@ import { ServiceCard } from '@/components/ServiceCard';
 import { PackageCard } from '@/components/PackageCard';
 import { ContactForm } from '@/components/ContactForm';
 import { Button } from '@/components/ui/button';
-import { Check, Wine, Users, Briefcase, Heart } from 'lucide-react';
+import { Check, Wine, Users, Briefcase, Heart, ChevronDown } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 export default function ServicesPage() {
   return (
@@ -60,59 +61,49 @@ export default function ServicesPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <ServiceCard
-              title="Premium Mobile Bar"
-              description="Complete setup for 50+ guests"
-              price="$1,200"
+              title="Premium Mobile Bar Experience"
+              description="Complete setup with all supplies"
+              price="$850"
               features={[
                 'Fully equipped mobile bar',
-                '3 signature cocktails',
+                '1 signature cocktail',
                 'Professional bartender (4 hrs)',
-                'Premium glassware',
+                'Bar tools & glassware',
                 'Setup & breakdown',
-                'Bar decorations'
+                'Travel up to 30 miles',
+                'Basic mixers & garnishes',
+                'Insurance included'
               ]}
               highlighted
             />
 
             <ServiceCard
-              title="Signature Cocktails"
-              description="Custom drink design"
-              price="$800"
-              features={[
-                'Custom menu consultation',
-                '3 unique cocktail recipes',
-                'Premium ingredient sourcing',
-                'Recipe cards for guests',
-                'Professional preparation',
-                'Beverage coordination'
-              ]}
-            />
-
-            <ServiceCard
               title="Beer & Wine Service"
               description="Elevated beverage service"
-              price="$800"
+              price="$500"
               features={[
                 'Professional bartender',
-                'Beer & wine service',
+                'Beer & wine service only',
                 'Ice & coolers provided',
                 'Glassware included',
-                '100 guests',
-                '4 hour service'
+                '4 hour service',
+                'Setup & breakdown',
+                'No full bar required'
               ]}
             />
 
             <ServiceCard
               title="Bartender Only"
               description="Professional service for your bar"
-              price="$150/hr"
+              price="$400"
               features={[
                 'Experienced mixologist',
-                'Professional service',
-                '2 hour minimum',
-                'Cocktail expertise',
+                'Professional bar service',
+                '4 hour service',
+                'Bar tools included',
+                'No supplies provided',
                 'Guest interaction',
                 'Bar management'
               ]}
@@ -308,6 +299,96 @@ export default function ServicesPage() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Everything you need to know about our services
+              </p>
+            </div>
+
+            <Accordion type="single" collapsible className="space-y-4">
+              <AccordionItem value="item-1" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  What is included in the 4-hour service minimum?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  All packages include a 4-hour service minimum. This includes setup time (1 hour), active bar service (4 hours), and breakdown time (1 hour). If your event requires less than 4 hours of bar service, the price remains the same as the 4-hour minimum.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-2" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  Is gratuity included in the pricing?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  A 20% gratuity is automatically included in all service packages. If tip jars are not permitted at your venue, the host is responsible for ensuring gratuity is provided to the bartender.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-3" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  Do you provide alcohol?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Our services are for dry hire events only - we do not provide or sell alcohol. We provide a detailed shopping list for you to purchase the alcohol, and we handle all the bartending and service. This keeps costs transparent and allows you to choose your preferred brands and budget.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-4" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  What is your cancellation and refund policy?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  All bookings are non-refundable regardless of weather conditions or other circumstances. We recommend purchasing event insurance to protect your investment. Once you book with us, we reserve that date exclusively for you and turn away other potential clients.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-5" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  What does the venue need to provide?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  The venue must provide trash cans for proper waste disposal throughout the event. We handle setup, service, and breakdown, but having adequate trash receptacles on-site is essential for maintaining a clean bar area.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-6" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  How far in advance should I book?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  We recommend booking at least 6-8 weeks in advance, especially for weekend events and peak season (May-October). However, we do our best to accommodate last-minute requests when our schedule allows.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-7" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  Do you travel outside of Austin?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Yes! Our standard package includes travel up to 30 miles from Austin. For events beyond 30 miles, we can discuss additional travel fees based on the distance and location.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-8" className="bg-card border border-border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold hover:text-primary">
+                  Are you insured?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Yes, we carry full liability insurance for all events. We can provide a certificate of insurance to your venue upon request. All our bartenders are TABC certified as required by Texas law.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
           </div>
         </div>
       </section>

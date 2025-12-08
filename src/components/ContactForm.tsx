@@ -53,7 +53,7 @@ export function ContactForm() {
                     <Input
                       id="name"
                       required
-                      placeholder="Francesca Martinez"
+                      placeholder="Whitney Torres"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
