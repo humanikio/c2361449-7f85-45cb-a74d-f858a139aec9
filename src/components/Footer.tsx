@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-serif font-bold mb-4 text-white title-on-dark">
-              Beyond The Bar
+              The Nearest Bar
             </h3>
             <p className="text-secondary-foreground/80 mb-4">
               Premium mobile bartending service bringing professional cocktail artistry to your celebration.
@@ -88,8 +88,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 flex-shrink-0" />
-                <a href="mailto:hello@beyondthebar.com" className="hover:text-primary transition-colors">
-                  hello@beyondthebar.com
+                <a href="mailto:hello@thenearestbar.com" className="hover:text-primary transition-colors">
+                  hello@thenearestbar.com
                 </a>
               </li>
             </ul>
@@ -97,7 +97,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-secondary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Beyond The Bar. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} The Nearest Bar. All rights reserved.</p>
         </div>
       </div>
     </footer>

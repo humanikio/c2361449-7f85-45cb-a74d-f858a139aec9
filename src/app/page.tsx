@@ -110,13 +110,13 @@ export default function HomePage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground/80 leading-relaxed">
-                  With 8 years of experience crafting signature cocktails across Austin and Denver, I founded Beyond The Bar to bring the artistry and precision of high-end mixology directly to your celebration.
+                  With 8 years of experience crafting signature cocktails across Austin and Denver, I founded The Nearest Bar to bring the artistry and precision of high-end mixology directly to your celebration.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
                   Every event is unique, and I believe your beverage service should reflect that. From custom cocktail menus designed around your event's theme to fully equipped mobile bar setups, I'm committed to creating a memorable bar experience that your guests will be talking about long after the last glass is raised.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  Whether it's an intimate anniversary celebration or a grand wedding reception, I bring the same level of dedication, creativity, and professionalism that has made Beyond The Bar the preferred choice for discerning hosts across Texas and Colorado.
+                  Whether it's an intimate anniversary celebration or a grand wedding reception, I bring the same level of dedication, creativity, and professionalism that has made The Nearest Bar the preferred choice for discerning hosts across Texas and Colorado.
                 </p>
               </div>
 
