@@ -77,7 +77,7 @@ export default function HomePage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground/80 leading-relaxed">
-                  With seven years of bartending under my belt, I'm the girl who brings the party to your party. You bring the liquor, and I'll bring everything else—shakers, mixers, vibes, and a whole lot of fun—so you can actually enjoy your guests instead of running around stressed. I keep the drinks flowing, the energy high, and the good times rolling. Basically… you host, I handle the chaos. Cheers to that!
+                  With seven years of bartending under my belt, I'm the girl who brings the party to your party. You bring the liquor, and I'll bring everything else - shakers, mixers, vibes, and a whole lot of fun - so you can actually enjoy your guests instead of running around stressed. I keep the drinks flowing, the energy high, and the good times rolling. Basically… you host, I handle the chaos. Cheers to that!
                 </p>
               </div>
 
@@ -186,13 +186,13 @@ export default function HomePage() {
               {
                 name: 'Jason C.',
                 event: 'Birthday Party',
-                quote: 'Whitney absolutely made my birthday party unforgettable! She showed up with amazing energy, crafted delicious drinks, and kept the good vibes flowing all night long. My guests are still talking about how fun she was behind the bar! If you want your event to be a hit, book Whitney — she\'s the best!',
+                quote: 'Whitney absolutely made my birthday party unforgettable! She showed up with amazing energy, crafted delicious drinks, and kept the good vibes flowing all night long. My guests are still talking about how fun she was behind the bar! If you want your event to be a hit, book Whitney - she\'s the best!',
                 rating: 5
               },
               {
                 name: 'Charles L.',
                 event: 'Housewarming Party',
-                quote: 'Whitney crushed it at my housewarming party! From the custom cocktails to the smooth service, she had every guest hyped and happy. She brought the exact energy the night needed — fun, professional, and seriously talented behind the bar. People are still asking me for her info because she turned a simple housewarming into a full-on celebration. If you want your party to go from good to legendary, you need Whitney behind the bar. 10/10 — would book again in a heartbeat!',
+                quote: 'Whitney crushed it at my housewarming party! From the custom cocktails to the smooth service, she had every guest hyped and happy. She brought the exact energy the night needed - fun, professional, and seriously talented behind the bar. People are still asking me for her info because she turned a simple housewarming into a full-on celebration. If you want your party to go from good to legendary, you need Whitney behind the bar. 10/10 - would book again in a heartbeat!',
                 rating: 5
               },
               {
