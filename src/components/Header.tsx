@@ -40,12 +40,6 @@ export function Header() {
               Services
             </Link>
             <Link
-              href="/gallery"
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Gallery
-            </Link>
-            <Link
               href="/services#faq"
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
@@ -90,13 +84,6 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Services
-              </Link>
-              <Link
-                href="/gallery"
-                className="text-foreground hover:text-primary transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Gallery
               </Link>
               <Link
                 href="/services#faq"

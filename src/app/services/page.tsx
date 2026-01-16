@@ -65,7 +65,6 @@ export default function ServicesPage() {
             <ServiceCard
               title="Premium Mobile Bar Experience"
               description="Complete setup with all supplies"
-              price="$850"
               features={[
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
@@ -82,7 +81,6 @@ export default function ServicesPage() {
             <ServiceCard
               title="Beer and Wine Service"
               description="Elevated beverage service"
-              price="$500"
               features={[
                 'TABC certified bartender',
                 'Beer and wine service only',
@@ -97,7 +95,6 @@ export default function ServicesPage() {
             <ServiceCard
               title="Bartender Only"
               description="Professional service for your bar"
-              price="$400"
               features={[
                 'TABC certified bartender',
                 'Professional bar service',

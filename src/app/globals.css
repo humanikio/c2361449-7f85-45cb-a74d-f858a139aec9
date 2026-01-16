@@ -9,61 +9,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Premium Backgrounds - Warm cream with rich brown text */
-  --background: 30 30% 97%;
-  --foreground: 25 25% 15%;
+  /* Clean White and Light Grey Color Scheme */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 20%;
 
-  /* Elevated Cards - Soft white with warm undertones */
-  --card: 30 20% 99%;
-  --card-foreground: 25 25% 15%;
+  /* Cards - Pure white */
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 20%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 25 25% 15%;
+  --popover-foreground: 0 0% 20%;
 
-  /* Primary: Luxe Gold - The signature brand color */
-  --primary: 43 74% 49%;
+  /* Primary: Medium Grey */
+  --primary: 0 0% 45%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Warm Earth Brown */
-  --secondary: 25 35% 35%;
+  /* Secondary: Dark Grey */
+  --secondary: 0 0% 35%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Soft Beige */
-  --muted: 35 25% 92%;
-  --muted-foreground: 25 15% 45%;
+  /* Muted: Light Grey */
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
 
-  /* Accent: Copper/Rose Gold */
-  --accent: 15 55% 55%;
+  /* Accent: Medium Grey */
+  --accent: 0 0% 50%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Elegant error red */
-  --destructive: 0 65% 50%;
+  /* Destructive: Grey-tinted red */
+  --destructive: 0 0% 40%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Subtle warm gray */
-  --border: 30 15% 85%;
-  --input: 30 15% 88%;
-  --ring: 43 74% 49%;
+  /* Borders: Light grey */
+  --border: 0 0% 90%;
+  --input: 0 0% 92%;
+  --ring: 0 0% 45%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: Premium white with gold accents */
-  --sidebar-background: 30 20% 99%;
-  --sidebar-foreground: 25 25% 15%;
-  --sidebar-primary: 43 74% 49%;
+  /* Sidebar: White with grey accents */
+  --sidebar-background: 0 0% 100%;
+  --sidebar-foreground: 0 0% 20%;
+  --sidebar-primary: 0 0% 45%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 35 25% 92%;
-  --sidebar-accent-foreground: 25 25% 15%;
-  --sidebar-border: 30 15% 85%;
-  --sidebar-ring: 43 74% 49%;
-
-  /* Custom Brand Colors */
-  --brand-gold: 43 74% 49%;
-  --brand-brown: 25 35% 35%;
-  --brand-cream: 30 30% 97%;
-  --brand-copper: 15 55% 55%;
+  --sidebar-accent: 0 0% 96%;
+  --sidebar-accent-foreground: 0 0% 20%;
+  --sidebar-border: 0 0% 90%;
+  --sidebar-ring: 0 0% 45%;
 }
 
 .dark {
@@ -349,7 +343,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .shadow-gold {
-  box-shadow: 0 10px 30px -5px rgba(218, 165, 32, 0.25);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.15);
 }
 
 /* ============================================

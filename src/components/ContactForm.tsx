@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Calendar, Users, Wine } from 'lucide-react';
+import { Calendar, Users, Wine, Loader2 } from 'lucide-react';
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -19,12 +19,42 @@ export function ContactForm() {
     serviceType: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Add your form submission logic here
-    alert('Thank you! We\'ll be in touch soon to discuss your event.');
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          eventDate: '',
+          guestCount: '',
+          serviceType: '',
+          message: ''
+        });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -144,12 +174,32 @@ export function ContactForm() {
                   />
                 </div>
 
+                {submitStatus === 'success' && (
+                  <div className="p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
+                    Thank you! We'll be in touch within 24 hours to discuss your event.
+                  </div>
+                )}
+
+                {submitStatus === 'error' && (
+                  <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-800">
+                    Something went wrong. Please try again or contact us directly.
+                  </div>
+                )}
+
                 <Button
                   type="submit"
                   size="lg"
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg button-text-white"
+                  disabled={isSubmitting}
                 >
-                  Request Your Free Quote
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                      Sending...
+                    </>
+                  ) : (
+                    'Request Your Free Quote'
+                  )}
                 </Button>
               </form>
             </CardContent>

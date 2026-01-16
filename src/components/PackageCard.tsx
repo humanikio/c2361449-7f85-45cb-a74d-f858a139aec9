@@ -17,14 +17,14 @@ export function PackageCard() {
   ];
 
   const serviceAddOns = [
-    { name: 'Specialty mixers', price: '$3 PP' },
-    { name: 'Specialty garnishes', price: '$2 PP' },
-    { name: 'Champagne pour', price: '$2 PP' },
-    { name: 'Water station', price: '$2 PP' },
-    { name: 'Table wine service', price: '$3 PP' },
-    { name: 'Second bar setup', price: '$300' },
-    { name: 'Extra bartender', price: '$250' },
-    { name: 'Additional hour', price: '$45' }
+    'Specialty mixers',
+    'Specialty garnishes',
+    'Champagne pour',
+    'Water station',
+    'Table wine service',
+    'Second bar setup',
+    'Extra bartender',
+    'Additional hour'
   ];
 
   return (
@@ -39,9 +39,6 @@ export function PackageCard() {
                 <span className="text-primary font-semibold text-sm tracking-wider uppercase">
                   Our Package
                 </span>
-              </div>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-6xl font-serif font-bold text-primary">$850</span>
               </div>
               <h3 className="text-2xl font-serif font-semibold mb-4 text-foreground">
                 Package Includes:
@@ -104,18 +101,11 @@ export function PackageCard() {
             {serviceAddOns.map((addon, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between p-4 rounded-lg bg-muted/30 border border-border hover:border-accent/50 hover:bg-accent/5 transition-all"
+                className="flex items-center p-4 rounded-lg bg-muted/30 border border-border hover:border-accent/50 hover:bg-accent/5 transition-all"
               >
-                <span className="text-foreground font-medium">{addon.name}</span>
-                <span className="text-primary font-semibold text-lg">{addon.price}</span>
+                <span className="text-foreground font-medium">{addon}</span>
               </div>
             ))}
-          </div>
-
-          <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
-            <p className="text-sm text-foreground/70 text-center">
-              <span className="font-semibold text-primary">PP</span> = Per Person
-            </p>
           </div>
         </div>
       </div>

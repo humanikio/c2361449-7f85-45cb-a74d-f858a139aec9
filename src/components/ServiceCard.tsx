@@ -5,12 +5,11 @@ import { Check } from 'lucide-react';
 interface ServiceCardProps {
   title: string;
   description: string;
-  price: string;
   features: string[];
   highlighted?: boolean;
 }
 
-export function ServiceCard({ title, description, price, features, highlighted = false }: ServiceCardProps) {
+export function ServiceCard({ title, description, features, highlighted = false }: ServiceCardProps) {
   return (
     <Card className={`relative overflow-hidden transition-all hover:shadow-lg ${highlighted ? 'border-primary border-2 shadow-gold' : ''}`}>
       {highlighted && (
@@ -23,10 +22,6 @@ export function ServiceCard({ title, description, price, features, highlighted =
         <CardDescription className="text-base">{description}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
-        <div>
-          <span className="text-4xl font-bold text-primary">{price}</span>
-          {price !== 'Custom' && <span className="text-muted-foreground ml-2">starting</span>}
-        </div>
         <ul className="space-y-3">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start gap-3">
