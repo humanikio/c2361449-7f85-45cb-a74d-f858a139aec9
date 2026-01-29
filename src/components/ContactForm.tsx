@@ -83,7 +83,6 @@ export function ContactForm() {
                     <Input
                       id="name"
                       required
-                      placeholder="Whitney Torres"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
@@ -95,7 +94,6 @@ export function ContactForm() {
                       id="email"
                       type="email"
                       required
-                      placeholder="hello@example.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     />
@@ -107,7 +105,6 @@ export function ContactForm() {
                       id="phone"
                       type="tel"
                       required
-                      placeholder="(512) 555-1234"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     />
@@ -134,7 +131,6 @@ export function ContactForm() {
                         id="guestCount"
                         type="number"
                         required
-                        placeholder="50"
                         value={formData.guestCount}
                         onChange={(e) => setFormData({ ...formData, guestCount: e.target.value })}
                       />
@@ -167,7 +163,6 @@ export function ContactForm() {
                   <Label htmlFor="message">Tell Us About Your Event</Label>
                   <Textarea
                     id="message"
-                    placeholder="Share any details about your event, theme, preferences, or special requests..."
                     rows={5}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
