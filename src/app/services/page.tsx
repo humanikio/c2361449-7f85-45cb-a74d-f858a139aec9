@@ -70,10 +70,9 @@ export default function ServicesPage() {
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
                 'TABC certified bartender (4 hrs)',
-                'Bar tools and cups',
+                'All cups, bar tools, coolers, and garnishes',
                 'Setup and breakdown',
                 'Travel up to 30 miles',
-                'Basic mixers and garnishes',
                 'Insurance included'
               ]}
               highlighted

@@ -128,7 +128,7 @@ export default function HomePage() {
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
                 'TABC certified bartender (4 hrs)',
-                'All cups & bar tools',
+                'All cups, bar tools, coolers, and garnishes',
                 'Setup & breakdown included'
               ]}
               highlighted
