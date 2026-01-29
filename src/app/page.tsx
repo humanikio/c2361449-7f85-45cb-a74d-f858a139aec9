@@ -125,9 +125,9 @@ export default function HomePage() {
               price="Price starts at $850"
               description="Complete mobile bar setup with all supplies and equipment"
               features={[
+                'TABC certified bartender (4 hrs)',
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
-                'TABC certified bartender (4 hrs)',
                 'All cups, bar tools, coolers, and garnishes',
                 'Setup & breakdown included'
               ]}
