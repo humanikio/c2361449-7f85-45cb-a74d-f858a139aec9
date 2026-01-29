@@ -195,7 +195,7 @@ export default function HomePage() {
               {
                 name: 'Sarah and Michael',
                 event: 'Hill Country Wedding',
-                quote: 'Whitney transformed our wedding reception with her stunning mobile bar and incredible signature cocktails. Our guests are still raving about the lavender gin fizz!',
+                quote: 'Whitney transformed our wedding reception with her stunning mobile bar and incredible signature cocktails.',
                 rating: 5
               }
             ].map((testimonial, index) => (
