@@ -140,7 +140,7 @@ export default function HomePage() {
               features={[
                 'TABC certified bartender',
                 'Beer and wine service only',
-                'Ice and coolers provided',
+                'Coolers provided',
                 'Cups included',
                 '4 hour service'
               ]}
