@@ -6,10 +6,11 @@ interface ServiceCardProps {
   title: string;
   description: string;
   features: string[];
+  price?: string;
   highlighted?: boolean;
 }
 
-export function ServiceCard({ title, description, features, highlighted = false }: ServiceCardProps) {
+export function ServiceCard({ title, description, features, price, highlighted = false }: ServiceCardProps) {
   return (
     <Card className={`relative overflow-hidden transition-all hover:shadow-lg ${highlighted ? 'border-primary border-2 shadow-gold' : ''}`}>
       {highlighted && (
@@ -19,6 +20,9 @@ export function ServiceCard({ title, description, features, highlighted = false 
       )}
       <CardHeader>
         <CardTitle className="text-2xl font-serif">{title}</CardTitle>
+        {price && (
+          <div className="text-lg font-semibold text-primary mt-2">{price}</div>
+        )}
         <CardDescription className="text-base">{description}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
