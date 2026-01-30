@@ -136,6 +136,7 @@ export default function HomePage() {
 
             <ServiceCard
               title="Beer and Wine Service"
+              price="Price $550"
               description="Elevated beverage service for beer and wine only"
               features={[
                 'TABC certified bartender',
