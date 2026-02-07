@@ -70,7 +70,7 @@ export default function HomePage() {
 
             <div className="space-y-6 order-1 md:order-2">
               <div className="inline-block">
-                <span className="text-primary font-semibold text-sm tracking-wider uppercase">Meet Whitney</span>
+                <span className="text-primary font-semibold text-sm tracking-wider uppercase">Hi, I'm Whitney</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif font-bold">
                 TABC Certified Bartender with 7 Years of Experience
