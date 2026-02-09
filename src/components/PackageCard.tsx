@@ -7,7 +7,6 @@ export function PackageCard() {
     'Travel up to 30 miles',
     'Alcohol shopping list',
     'Basic garnishes',
-    'Basic mixers',
     '1 signature cocktail',
     'Plastic cups, napkins, straws',
     'Set up and break down 1 hour each',
