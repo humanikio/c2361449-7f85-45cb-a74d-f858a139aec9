@@ -258,6 +258,37 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Service Add-ons */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">
+                Service Add-ons
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Customize your experience with optional enhancements
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-primary/10 p-2 rounded-full">
+                    <Check className="h-5 w-5 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold">Basic Mixers</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Selection of essential mixers including cola, ginger ale, tonic water, and soda water to complement your cocktails
+                </p>
+                <p className="font-semibold text-primary">+$50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="faq" className="py-20 bg-background">
         <div className="container mx-auto px-4">
