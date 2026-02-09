@@ -2,7 +2,7 @@ import { Check, Phone, Mail, Globe } from 'lucide-react';
 
 export function PackageCard() {
   const packageIncludes = [
-    'Up to 4 hours of service',
+    'Up to 5 hours of service',
     '1 TABC certified bartender for up to 65 people',
     'Travel up to 30 miles',
     'Alcohol shopping list',
