@@ -87,7 +87,7 @@ export default function ServicesPage() {
                 'Beer and wine service only',
                 'Coolers provided',
                 'Cups included',
-                '5 hour service',
+                '4 hours of service',
                 'Setup and breakdown',
                 'No full bar required'
               ]}
