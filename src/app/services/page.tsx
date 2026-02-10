@@ -67,7 +67,8 @@ export default function ServicesPage() {
               price="Price starts at $850"
               description="Complete setup with all supplies"
               features={[
-                'TABC certified bartender (5 hrs)',
+                'TABC certified bartender',
+                '4 hours of service',
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
                 'All cups, bar tools, coolers, and garnishes',
@@ -100,7 +101,7 @@ export default function ServicesPage() {
               features={[
                 'TABC certified bartender',
                 'Professional bar service',
-                '5 hour service',
+                '4 hours of service',
                 'Bar tools included',
                 'No supplies provided',
                 'Guest interaction'
