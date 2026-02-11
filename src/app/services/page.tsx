@@ -298,6 +298,19 @@ export default function ServicesPage() {
                 </p>
                 <p className="font-semibold text-primary">+$75</p>
               </div>
+
+              <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-primary/10 p-2 rounded-full">
+                    <Check className="h-5 w-5 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold">Standard Mixers</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Complete selection of standard mixers including juices, sodas, bitters, and syrups for a wider variety of cocktail options
+                </p>
+                <p className="font-semibold text-primary">+$85</p>
+              </div>
             </div>
           </div>
         </div>
