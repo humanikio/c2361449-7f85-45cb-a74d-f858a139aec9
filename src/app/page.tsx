@@ -142,8 +142,7 @@ export default function HomePage() {
                 'TABC certified bartender',
                 'Beer and wine service only',
                 'Coolers provided',
-                'Cups included',
-                '5 hour service'
+                'Cups included'
               ]}
             />
 
@@ -154,7 +153,6 @@ export default function HomePage() {
               features={[
                 'TABC certified bartender',
                 'Professional bar service',
-                '5 hour minimum',
                 'Bar tools included',
                 'No supplies provided'
               ]}
