@@ -15,14 +15,15 @@ export function Footer() {
               Premium mobile bartending service bringing professional cocktail artistry to your celebration.
             </p>
             <div className="flex gap-4 items-center">
-              <div className="relative group">
-                <div className="text-secondary-foreground/60 cursor-not-allowed">
-                  <Instagram className="h-5 w-5" />
-                </div>
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                  Coming Soon!
-                </div>
-              </div>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary-foreground/80 hover:text-primary transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
             </div>
           </div>
 
