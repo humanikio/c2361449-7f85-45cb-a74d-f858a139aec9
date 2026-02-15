@@ -1,63 +1,63 @@
 @import "tailwindcss";
 
 /* ============================================
-   SEA GREEN AND WHITE DESIGN SYSTEM
-   Fresh coastal colors, clean typography
+   LAVENDER AND WHITE DESIGN SYSTEM
+   Elegant purple tones, clean typography
    ============================================ */
 
 /* Font Imports - Inter for clean body text (Over the Rainbow loaded via next/font in layout.tsx) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Sea Green and White Color Scheme */
+  /* Lavender and White Color Scheme */
   --background: 0 0% 100%;
-  --foreground: 174 30% 20%;
+  --foreground: 270 30% 20%;
 
   /* Cards - Pure white */
   --card: 0 0% 100%;
-  --card-foreground: 174 30% 20%;
+  --card-foreground: 270 30% 20%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 174 30% 20%;
+  --popover-foreground: 270 30% 20%;
 
-  /* Primary: Sea Green */
-  --primary: 174 62% 47%;
+  /* Primary: Lavender */
+  --primary: 270 62% 47%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Light Sea Green */
-  --secondary: 174 45% 65%;
+  /* Secondary: Light Lavender */
+  --secondary: 270 45% 65%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Very light sea green */
-  --muted: 174 40% 95%;
-  --muted-foreground: 174 20% 45%;
+  /* Muted: Very light lavender */
+  --muted: 270 40% 95%;
+  --muted-foreground: 270 20% 45%;
 
-  /* Accent: Vibrant Sea Green */
-  --accent: 174 70% 40%;
+  /* Accent: Vibrant Lavender */
+  --accent: 270 70% 40%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Coral red (complements sea green) */
+  /* Destructive: Coral red (complements lavender) */
   --destructive: 0 65% 50%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Light sea green tint */
-  --border: 174 30% 85%;
-  --input: 174 25% 90%;
-  --ring: 174 62% 47%;
+  /* Borders: Light lavender tint */
+  --border: 270 30% 85%;
+  --input: 270 25% 90%;
+  --ring: 270 62% 47%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: White with sea green accents */
+  /* Sidebar: White with lavender accents */
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 174 30% 20%;
-  --sidebar-primary: 174 62% 47%;
+  --sidebar-foreground: 270 30% 20%;
+  --sidebar-primary: 270 62% 47%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 174 40% 95%;
-  --sidebar-accent-foreground: 174 30% 20%;
-  --sidebar-border: 174 30% 85%;
-  --sidebar-ring: 174 62% 47%;
+  --sidebar-accent: 270 40% 95%;
+  --sidebar-accent-foreground: 270 30% 20%;
+  --sidebar-border: 270 30% 85%;
+  --sidebar-ring: 270 62% 47%;
 }
 
 .dark {
