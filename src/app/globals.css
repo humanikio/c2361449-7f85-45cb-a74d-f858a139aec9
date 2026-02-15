@@ -1,63 +1,63 @@
 @import "tailwindcss";
 
 /* ============================================
-   ROSE GOLD AND WHITE DESIGN SYSTEM
-   Warm golden tones, elegant and sophisticated
+   SAGE GREEN AND WHITE DESIGN SYSTEM
+   Soft muted greens, calming and sophisticated
    ============================================ */
 
 /* Font Imports - Inter for clean body text (Over the Rainbow loaded via next/font in layout.tsx) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Rose Gold and White Color Scheme */
+  /* Sage Green and White Color Scheme */
   --background: 0 0% 100%;
-  --foreground: 18 35% 20%;
+  --foreground: 150 25% 25%;
 
   /* Cards - Pure white */
   --card: 0 0% 100%;
-  --card-foreground: 18 35% 20%;
+  --card-foreground: 150 25% 25%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 18 35% 20%;
+  --popover-foreground: 150 25% 25%;
 
-  /* Primary: Rose Gold */
-  --primary: 18 70% 57%;
+  /* Primary: Sage Green */
+  --primary: 150 35% 55%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Light Rose Gold */
-  --secondary: 18 60% 75%;
+  /* Secondary: Light Sage Green */
+  --secondary: 150 30% 70%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Very light rose gold */
-  --muted: 18 50% 100%;
-  --muted-foreground: 18 25% 55%;
+  /* Muted: Very light sage green */
+  --muted: 150 20% 95%;
+  --muted-foreground: 150 20% 50%;
 
-  /* Accent: Vibrant Rose Gold */
-  --accent: 18 75% 50%;
+  /* Accent: Vibrant Sage Green */
+  --accent: 150 40% 50%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Coral red (complements rose gold) */
+  /* Destructive: Coral red (complements sage green) */
   --destructive: 0 65% 50%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Light rose gold tint */
-  --border: 18 40% 95%;
-  --input: 18 35% 100%;
-  --ring: 18 70% 57%;
+  /* Borders: Light sage green tint */
+  --border: 150 25% 92%;
+  --input: 150 25% 98%;
+  --ring: 150 35% 55%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: White with rose gold accents */
+  /* Sidebar: White with sage green accents */
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 18 35% 20%;
-  --sidebar-primary: 18 70% 57%;
+  --sidebar-foreground: 150 25% 25%;
+  --sidebar-primary: 150 35% 55%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 18 50% 100%;
-  --sidebar-accent-foreground: 18 35% 20%;
-  --sidebar-border: 18 40% 95%;
-  --sidebar-ring: 18 70% 57%;
+  --sidebar-accent: 150 20% 95%;
+  --sidebar-accent-foreground: 150 25% 25%;
+  --sidebar-border: 150 25% 92%;
+  --sidebar-ring: 150 35% 55%;
 }
 
 .dark {
