@@ -14,7 +14,7 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center gap-2">
             <Image
               src="/the-nearest-bar-logo.png"
               alt="The Nearest Bar Mobile Bartending Services"
@@ -23,6 +23,14 @@ export function Header() {
               className="h-20 w-auto"
               priority
             />
+            <div className="hidden sm:block">
+              <h1 className="text-lg font-bold text-primary">
+                The Nearest Bar
+              </h1>
+              <p className="text-xs text-primary/70">
+                Mobile Bartending Services
+              </p>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
