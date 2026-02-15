@@ -23,14 +23,6 @@ export function Header() {
               className="h-20 w-auto"
               priority
             />
-            <div className="hidden sm:block">
-              <h1 className="text-lg font-bold text-primary">
-                The Nearest Bar
-              </h1>
-              <p className="text-xs text-primary/70">
-                Mobile Bartending Services
-              </p>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
