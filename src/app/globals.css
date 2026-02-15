@@ -22,19 +22,19 @@
   --popover-foreground: 270 30% 20%;
 
   /* Primary: Lavender */
-  --primary: 270 62% 47%;
+  --primary: 270 62% 57%;
   --primary-foreground: 0 0% 100%;
 
   /* Secondary: Light Lavender */
-  --secondary: 270 45% 65%;
+  --secondary: 270 45% 75%;
   --secondary-foreground: 0 0% 100%;
 
   /* Muted: Very light lavender */
-  --muted: 270 40% 95%;
-  --muted-foreground: 270 20% 45%;
+  --muted: 270 40% 100%;
+  --muted-foreground: 270 20% 55%;
 
   /* Accent: Vibrant Lavender */
-  --accent: 270 70% 40%;
+  --accent: 270 70% 50%;
   --accent-foreground: 0 0% 100%;
 
   /* Destructive: Coral red (complements lavender) */
@@ -42,9 +42,9 @@
   --destructive-foreground: 0 0% 100%;
 
   /* Borders: Light lavender tint */
-  --border: 270 30% 85%;
-  --input: 270 25% 90%;
-  --ring: 270 62% 47%;
+  --border: 270 30% 95%;
+  --input: 270 25% 100%;
+  --ring: 270 62% 57%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
@@ -52,12 +52,12 @@
   /* Sidebar: White with lavender accents */
   --sidebar-background: 0 0% 100%;
   --sidebar-foreground: 270 30% 20%;
-  --sidebar-primary: 270 62% 47%;
+  --sidebar-primary: 270 62% 57%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 270 40% 95%;
+  --sidebar-accent: 270 40% 100%;
   --sidebar-accent-foreground: 270 30% 20%;
-  --sidebar-border: 270 30% 85%;
-  --sidebar-ring: 270 62% 47%;
+  --sidebar-border: 270 30% 95%;
+  --sidebar-ring: 270 62% 57%;
 }
 
 .dark {
