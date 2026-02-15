@@ -16,8 +16,8 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/generated/hero-mobile-bar.png"
-            alt="Premium mobile bar setup"
+            src="/generated/signature-cocktails.png"
+            alt="Beautiful signature cocktails"
             fill
             className="object-cover"
             priority
