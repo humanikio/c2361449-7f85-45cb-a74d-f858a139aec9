@@ -1,63 +1,63 @@
 @import "tailwindcss";
 
 /* ============================================
-   TERRACOTTA RED AND WHITE DESIGN SYSTEM
-   Warm earthy reds, elegant and inviting
+   LIGHT PURPLE AND WHITE DESIGN SYSTEM
+   Soft lavender purples, elegant and calming
    ============================================ */
 
 /* Font Imports - Inter for clean body text (Over the Rainbow loaded via next/font in layout.tsx) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Terracotta Red and White Color Scheme */
+  /* Light Purple and White Color Scheme */
   --background: 0 0% 100%;
-  --foreground: 12 40% 20%;
+  --foreground: 270 40% 30%;
 
   /* Cards - Pure white */
   --card: 0 0% 100%;
-  --card-foreground: 12 40% 20%;
+  --card-foreground: 270 40% 30%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 12 40% 20%;
+  --popover-foreground: 270 40% 30%;
 
-  /* Primary: Terracotta Red */
-  --primary: 12 65% 50%;
+  /* Primary: Light Purple */
+  --primary: 270 60% 75%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Light Terracotta */
-  --secondary: 12 55% 65%;
+  /* Secondary: Very Light Purple */
+  --secondary: 270 50% 80%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Very light terracotta */
-  --muted: 12 30% 90%;
-  --muted-foreground: 12 50% 40%;
+  /* Muted: Extremely light purple */
+  --muted: 270 30% 95%;
+  --muted-foreground: 270 40% 40%;
 
-  /* Accent: Vibrant Terracotta */
-  --accent: 12 70% 45%;
+  /* Accent: Vibrant Purple */
+  --accent: 270 65% 70%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Darker terracotta red */
-  --destructive: 12 70% 35%;
+  /* Destructive: Deeper purple */
+  --destructive: 270 70% 45%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Light terracotta tint */
-  --border: 12 30% 90%;
-  --input: 12 30% 95%;
-  --ring: 12 65% 50%;
+  /* Borders: Light purple tint */
+  --border: 270 30% 95%;
+  --input: 270 30% 98%;
+  --ring: 270 60% 75%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: White with terracotta accents */
+  /* Sidebar: White with purple accents */
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 12 40% 20%;
-  --sidebar-primary: 12 65% 50%;
+  --sidebar-foreground: 270 40% 30%;
+  --sidebar-primary: 270 60% 75%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 12 30% 90%;
-  --sidebar-accent-foreground: 12 40% 20%;
-  --sidebar-border: 12 30% 90%;
-  --sidebar-ring: 12 65% 50%;
+  --sidebar-accent: 270 30% 95%;
+  --sidebar-accent-foreground: 270 40% 30%;
+  --sidebar-border: 270 30% 95%;
+  --sidebar-ring: 270 60% 75%;
 }
 
 .dark {
