@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Header() {
@@ -45,6 +45,15 @@ export function Header() {
             >
               FAQ
             </Link>
+            <a
+              href="https://instagram.com/thenearestbaratx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-primary transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="h-5 w-5" />
+            </a>
             <Button
               asChild
               className="bg-primary hover:bg-primary/90 text-primary-foreground button-text-white"
@@ -92,6 +101,16 @@ export function Header() {
               >
                 FAQ
               </Link>
+              <a
+                href="https://instagram.com/thenearestbaratx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground hover:text-primary transition-colors flex items-center gap-2"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+                <span>Follow on Instagram</span>
+              </a>
               <Button
                 asChild
                 className="bg-primary hover:bg-primary/90 text-primary-foreground w-full button-text-white"
