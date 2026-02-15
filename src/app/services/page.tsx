@@ -298,6 +298,19 @@ export default function ServicesPage() {
                 </p>
                 <p className="font-semibold text-primary">+$3 per person</p>
               </div>
+
+              <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-primary/10 p-2 rounded-full">
+                    <Check className="h-5 w-5 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold">Upgraded Mixers</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Premium mixer selection featuring Topo Chico, upgraded syrups, fresh juices, ginger beer, and Red Bull for elevated cocktail creations
+                </p>
+                <p className="font-semibold text-primary">+$5 per person</p>
+              </div>
             </div>
           </div>
         </div>
