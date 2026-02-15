@@ -283,7 +283,7 @@ export default function ServicesPage() {
                 <p className="text-muted-foreground mb-4">
                   Premium, eco-friendly Tossware cups that are durable, reusable, and elegant for any occasion
                 </p>
-                <p className="font-semibold text-primary">+$75</p>
+                <p className="font-semibold text-primary">+$3 per person</p>
               </div>
 
               <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
