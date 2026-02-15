@@ -278,19 +278,6 @@ export default function ServicesPage() {
                   <div className="bg-primary/10 p-2 rounded-full">
                     <Check className="h-5 w-5 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold">Basic Mixers</h3>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Selection of essential mixers including cola, ginger ale, tonic water, and soda water to complement your cocktails
-                </p>
-                <p className="font-semibold text-primary">+$50</p>
-              </div>
-
-              <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-primary/10 p-2 rounded-full">
-                    <Check className="h-5 w-5 text-primary" />
-                  </div>
                   <h3 className="text-xl font-semibold">Tossware Cups</h3>
                 </div>
                 <p className="text-muted-foreground mb-4">
