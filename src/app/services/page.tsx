@@ -309,7 +309,7 @@ export default function ServicesPage() {
                 <p className="text-muted-foreground mb-4">
                   Complete selection of standard mixers including juices, sodas, bitters, and syrups for a wider variety of cocktail options
                 </p>
-                <p className="font-semibold text-primary">+$85</p>
+                <p className="font-semibold text-primary">+$3 per person</p>
               </div>
             </div>
           </div>
