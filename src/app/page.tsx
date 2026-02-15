@@ -77,7 +77,7 @@ export default function HomePage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground/80 leading-relaxed">
-                  With seven years of bartending under my belt, I'm the girl who brings the party to your party. You bring the liquor, and I'll bring everything else: shakers, mixers, vibes, and a whole lot of fun so you can actually enjoy your guests instead of running around stressed. I keep the drinks flowing, the energy high, and the good times rolling. Basically… you host, I handle the chaos. Cheers to that!
+                  With seven years of bartending under my belt, I'm the girl who brings the party to your party. You bring the liquor, and I'll bring everything else: shakers, mixers, vibes, and a whole lot of fun so you can actually enjoy your guests instead of running around stressed. I keep the drinks flowing, the energy high, and the good times rolling. Basically… you host, I handle the rest. Cheers to that!
                 </p>
               </div>
 
