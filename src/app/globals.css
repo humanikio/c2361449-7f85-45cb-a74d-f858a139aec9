@@ -1,63 +1,63 @@
 @import "tailwindcss";
 
 /* ============================================
-   LAVENDER AND WHITE DESIGN SYSTEM
-   Elegant purple tones, clean typography
+   ROSE GOLD AND WHITE DESIGN SYSTEM
+   Warm golden tones, elegant and sophisticated
    ============================================ */
 
 /* Font Imports - Inter for clean body text (Over the Rainbow loaded via next/font in layout.tsx) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Lavender and White Color Scheme */
+  /* Rose Gold and White Color Scheme */
   --background: 0 0% 100%;
-  --foreground: 270 30% 20%;
+  --foreground: 18 35% 20%;
 
   /* Cards - Pure white */
   --card: 0 0% 100%;
-  --card-foreground: 270 30% 20%;
+  --card-foreground: 18 35% 20%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 270 30% 20%;
+  --popover-foreground: 18 35% 20%;
 
-  /* Primary: Lavender */
-  --primary: 270 62% 57%;
+  /* Primary: Rose Gold */
+  --primary: 18 70% 57%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Light Lavender */
-  --secondary: 270 45% 75%;
+  /* Secondary: Light Rose Gold */
+  --secondary: 18 60% 75%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Very light lavender */
-  --muted: 270 40% 100%;
-  --muted-foreground: 270 20% 55%;
+  /* Muted: Very light rose gold */
+  --muted: 18 50% 100%;
+  --muted-foreground: 18 25% 55%;
 
-  /* Accent: Vibrant Lavender */
-  --accent: 270 70% 50%;
+  /* Accent: Vibrant Rose Gold */
+  --accent: 18 75% 50%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Coral red (complements lavender) */
+  /* Destructive: Coral red (complements rose gold) */
   --destructive: 0 65% 50%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Light lavender tint */
-  --border: 270 30% 95%;
-  --input: 270 25% 100%;
-  --ring: 270 62% 57%;
+  /* Borders: Light rose gold tint */
+  --border: 18 40% 95%;
+  --input: 18 35% 100%;
+  --ring: 18 70% 57%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: White with lavender accents */
+  /* Sidebar: White with rose gold accents */
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 270 30% 20%;
-  --sidebar-primary: 270 62% 57%;
+  --sidebar-foreground: 18 35% 20%;
+  --sidebar-primary: 18 70% 57%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 270 40% 100%;
-  --sidebar-accent-foreground: 270 30% 20%;
-  --sidebar-border: 270 30% 95%;
-  --sidebar-ring: 270 62% 57%;
+  --sidebar-accent: 18 50% 100%;
+  --sidebar-accent-foreground: 18 35% 20%;
+  --sidebar-border: 18 40% 95%;
+  --sidebar-ring: 18 70% 57%;
 }
 
 .dark {
