@@ -1,63 +1,63 @@
 @import "tailwindcss";
 
 /* ============================================
-   SAGE GREEN AND WHITE DESIGN SYSTEM
-   Soft muted greens, calming and sophisticated
+   TERRACOTTA RED AND WHITE DESIGN SYSTEM
+   Warm earthy reds, elegant and inviting
    ============================================ */
 
 /* Font Imports - Inter for clean body text (Over the Rainbow loaded via next/font in layout.tsx) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Sage Green and White Color Scheme */
+  /* Terracotta Red and White Color Scheme */
   --background: 0 0% 100%;
-  --foreground: 150 25% 25%;
+  --foreground: 12 40% 20%;
 
   /* Cards - Pure white */
   --card: 0 0% 100%;
-  --card-foreground: 150 25% 25%;
+  --card-foreground: 12 40% 20%;
 
   /* Popovers - Clean white */
   --popover: 0 0% 100%;
-  --popover-foreground: 150 25% 25%;
+  --popover-foreground: 12 40% 20%;
 
-  /* Primary: Sage Green */
-  --primary: 150 35% 55%;
+  /* Primary: Terracotta Red */
+  --primary: 12 65% 50%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Light Sage Green */
-  --secondary: 150 30% 70%;
+  /* Secondary: Light Terracotta */
+  --secondary: 12 55% 65%;
   --secondary-foreground: 0 0% 100%;
 
-  /* Muted: Very light sage green */
-  --muted: 150 20% 95%;
-  --muted-foreground: 150 20% 50%;
+  /* Muted: Very light terracotta */
+  --muted: 12 30% 90%;
+  --muted-foreground: 12 50% 40%;
 
-  /* Accent: Vibrant Sage Green */
-  --accent: 150 40% 50%;
+  /* Accent: Vibrant Terracotta */
+  --accent: 12 70% 45%;
   --accent-foreground: 0 0% 100%;
 
-  /* Destructive: Coral red (complements sage green) */
-  --destructive: 0 65% 50%;
+  /* Destructive: Darker terracotta red */
+  --destructive: 12 70% 35%;
   --destructive-foreground: 0 0% 100%;
 
-  /* Borders: Light sage green tint */
-  --border: 150 25% 92%;
-  --input: 150 25% 98%;
-  --ring: 150 35% 55%;
+  /* Borders: Light terracotta tint */
+  --border: 12 30% 90%;
+  --input: 12 30% 95%;
+  --ring: 12 65% 50%;
 
   /* Elegant rounded corners */
   --radius: 0.75rem;
 
-  /* Sidebar: White with sage green accents */
+  /* Sidebar: White with terracotta accents */
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 150 25% 25%;
-  --sidebar-primary: 150 35% 55%;
+  --sidebar-foreground: 12 40% 20%;
+  --sidebar-primary: 12 65% 50%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 150 20% 95%;
-  --sidebar-accent-foreground: 150 25% 25%;
-  --sidebar-border: 150 25% 92%;
-  --sidebar-ring: 150 35% 55%;
+  --sidebar-accent: 12 30% 90%;
+  --sidebar-accent-foreground: 12 40% 20%;
+  --sidebar-border: 12 30% 90%;
+  --sidebar-ring: 12 65% 50%;
 }
 
 .dark {
