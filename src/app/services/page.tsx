@@ -283,7 +283,6 @@ export default function ServicesPage() {
                 <p className="text-muted-foreground mb-4">
                   Premium, eco-friendly Tossware cups that are durable, reusable, and elegant for any occasion
                 </p>
-                <p className="font-semibold text-primary">+$3 per person</p>
               </div>
 
               <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
@@ -296,7 +295,6 @@ export default function ServicesPage() {
                 <p className="text-muted-foreground mb-4">
                   Premium mixer selection featuring Topo Chico, upgraded syrups, fresh juices, ginger beer, and Red Bull for elevated cocktail creations
                 </p>
-                <p className="font-semibold text-primary">+$5 per person</p>
               </div>
             </div>
           </div>
