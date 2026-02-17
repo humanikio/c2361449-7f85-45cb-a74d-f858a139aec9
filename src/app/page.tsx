@@ -122,7 +122,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <ServiceCard
               title="Premium Mobile Bar Experience"
-              price="Price starts at $850"
+              price="Price starts at $900"
               description="Complete mobile bar setup with all supplies and equipment"
               features={[
                 'TABC certified bartender (4 hrs)',
