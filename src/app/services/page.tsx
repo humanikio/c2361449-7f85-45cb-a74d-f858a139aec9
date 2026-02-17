@@ -6,7 +6,7 @@ import { ServiceCard } from '@/components/ServiceCard';
 import { PackageCard } from '@/components/PackageCard';
 import { ContactForm } from '@/components/ContactForm';
 import { Button } from '@/components/ui/button';
-import { Check, Wine, Users, Briefcase, Heart, ChevronDown } from 'lucide-react';
+import { Check, Wine, Users, Briefcase, Heart, ChevronDown, MessageCircle } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 export default function ServicesPage() {
@@ -294,6 +294,18 @@ export default function ServicesPage() {
                 </div>
                 <p className="text-muted-foreground mb-4">
                   Premium mixer selection featuring Topo Chico, upgraded syrups, fresh juices, ginger beer, and Red Bull for elevated cocktail creations
+                </p>
+              </div>
+
+              <div className="bg-card rounded-lg border border-border p-8 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-primary/10 p-2 rounded-full">
+                    <MessageCircle className="h-5 w-5 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold">Don't See What Your're looking For?</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Let's chat about it and bring your vision to life!
                 </p>
               </div>
             </div>
