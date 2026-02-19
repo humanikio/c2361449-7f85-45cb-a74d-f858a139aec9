@@ -228,7 +228,7 @@ export default function ServicesPage() {
                   'Premium spirits, fresh ingredients, and garnishes',
                   'All necessary bar equipment and cups',
                   'Complete setup and breakdown service',
-                  'Liability insurance for peace of mind'
+                  'General and liquor liability insurance for peace of mind'
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
                     <div className="bg-primary/10 p-2 rounded-full flex-shrink-0">
