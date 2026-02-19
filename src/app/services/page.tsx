@@ -314,10 +314,10 @@ export default function ServicesPage() {
       </section>
 
       {/* Important Information Box */}
-      <section className="py-20 bg-background">
+      <section className="py-12 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto bg-primary/5 border-l-4 border-primary rounded-lg p-8 md:p-10">
-            <p className="text-lg leading-relaxed text-foreground/90">
+          <div className="max-w-3xl mx-auto bg-primary/5 border-l-4 border-primary rounded-lg p-5 md:p-6">
+            <p className="text-sm leading-normal text-foreground/80">
               <span className="font-semibold text-primary">20% gratuity</span> will be added per bartender that will either be included in the invoice or through tip jars at the event depending on the host's preference. A <span className="font-semibold text-primary">50% deposit</span> will be due at the time of booking with the rest due 2 weeks before your event.
             </p>
           </div>
