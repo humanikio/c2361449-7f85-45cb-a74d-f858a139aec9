@@ -32,22 +32,22 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-white title-on-dark">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-secondary-foreground/80 hover:text-primary transition-colors">
+                <Link href="/" className="text-white hover:text-primary transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-secondary-foreground/80 hover:text-primary transition-colors">
+                <Link href="/services" className="text-white hover:text-primary transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-secondary-foreground/80 hover:text-primary transition-colors">
+                <Link href="/gallery" className="text-white hover:text-primary transition-colors">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-secondary-foreground/80 hover:text-primary transition-colors">
+                <Link href="#contact" className="text-white hover:text-primary transition-colors">
                   Contact
                 </Link>
               </li>
