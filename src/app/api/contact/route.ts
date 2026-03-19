@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
     // Email content
     const mailOptions = {
       from: process.env.GMAIL_USER,
-      to: 'whitneyjames80@gmail.com',
+      to: 'thenearestbaratx@gmail.com',
       replyTo: email,
       subject: `New Quote Request from ${name}`,
       html: `

@@ -64,8 +64,8 @@ export function PackageCard() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-primary" />
-                  <a href="mailto:info@thenearestbaratx.com" className="text-foreground hover:text-primary transition-colors">
-                    info@thenearestbaratx.com
+                  <a href="mailto:thenearestbaratx@gmail.com" className="text-foreground hover:text-primary transition-colors">
+                    thenearestbaratx@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
