@@ -64,7 +64,7 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <ServiceCard
               title="Premium Mobile Bar Experience"
-              price="Price starts at $900"
+              price="Price starts at $900 plus sales tax"
               description="Complete setup with all supplies"
               features={[
                 'TABC certified bartender',
@@ -81,7 +81,7 @@ export default function ServicesPage() {
 
             <ServiceCard
               title="Beer and Wine Service"
-              price="Price $550"
+              price="Price $550 plus sales tax"
               description="Elevated beverage service"
               features={[
                 'TABC certified bartender',
@@ -96,7 +96,7 @@ export default function ServicesPage() {
 
             <ServiceCard
               title="Bartender Only"
-              price="Price $400"
+              price="Price $400 plus sales tax"
               description="Professional service for your bar"
               features={[
                 'TABC certified bartender',
