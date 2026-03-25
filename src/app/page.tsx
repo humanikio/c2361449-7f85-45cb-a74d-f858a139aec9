@@ -48,6 +48,14 @@ export default function HomePage() {
                 className="border-white text-white hover:bg-white hover:text-foreground text-lg px-8 py-6"
                 asChild
               >
+                <Link href="/services">Packages</Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-foreground text-lg px-8 py-6"
+                asChild
+              >
                 <Link href="/services">Explore Services</Link>
               </Button>
             </div>
