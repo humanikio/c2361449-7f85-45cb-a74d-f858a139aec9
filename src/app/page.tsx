@@ -42,6 +42,13 @@ export default function HomePage() {
               >
                 <Link href="#contact">Book An Event</Link>
               </Button>
+              <Button
+                size="lg"
+                className="bg-white hover:bg-white/90 text-foreground text-lg px-8 py-6"
+                asChild
+              >
+                <Link href="/services">Packages</Link>
+              </Button>
             </div>
           </div>
         </div>
