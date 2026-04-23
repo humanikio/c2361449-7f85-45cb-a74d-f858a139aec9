@@ -6,7 +6,6 @@ export function PackageCard() {
     '1 TABC certified bartender for up to 65 people',
     'Travel up to 30 miles',
     'Alcohol shopping list',
-    'Basic mixers and garnishes',
     '1 signature cocktail',
     'Plastic cups, napkins, straws, coolers',
     'Set up and break down 1 hour each',
